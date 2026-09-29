@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+
+
+<body>
+    <h1>Biodata Mahasiswa</h1>
+    <ul>
+        <?php foreach ($mahasiswa as $kunci => $nilai): ?
+>
+          <li><?= ucfirst($kunjci) ?>: <?=
+htmlspecialchars((string)$nilai) ?></li>
+       <?php endforeach; ?>
+    </ul>
+    <p>Predikat: <?= statusKelulusan($mahasiswa['ipk']) ?
+></p> 
+</body>
+
+<html></html>
